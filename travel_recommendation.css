@@ -13,8 +13,10 @@ nav {
     padding: 0 10px;
 }
 
-nav h1 {
+nav h1 a {
+    text-decoration: none;
     color: beige;
+    cursor: pointer;
 }
 
 nav ul {
@@ -77,19 +79,36 @@ body {
 }
 
 #content-social {
-    width: 10%;
+    margin-left: 10px;
+    width: 5%;
     height: 100%;
-    border: 1px;
+}
+
+#content-social #line {
+    margin: auto;
+    height: 50%;
+    width: 3px;
+    background-color: black;
+}
+
+#content-social #social div {
+    padding: 20px;
+}
+
+img {
+    width: 40px;
 }
 
 #content-main {
+    margin-left: 10px;
+    border: 2px dashed black;
     width: 60%;
-    border: 1px;
     height: 100%;
 }
 
 #content-blank {
-    border: 1px;
+    border: 2px dashed black;
+    margin-left: 10px;
     width: 30%;
     height: 100%;
 }
