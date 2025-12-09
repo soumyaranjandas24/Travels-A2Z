@@ -152,10 +152,14 @@ nav span {
     padding-left: 40px;
     width: 90%;
     height: 100%;
-    font-size: 50px;
     color: white;
     display: block;
 }
+
+#about-content-main div h1 {
+    font-size: 70px;
+}
+
 
 #about-content-main div p {
     margin: 10px 0;
@@ -169,8 +173,57 @@ nav span {
 #about-our-team {
     background-color: rgba(7, 7, 7, 0.5);
     display: flex;
+    justify-content: space-between;
     width: 89%;
     margin: 20px;
     padding: 20px;
     align-items: center;
+}
+
+#text-our-team {
+    width: 35%;
+    font-size: 50px;
+}
+
+.team-card {
+    width: 20%;
+    margin: 3px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.desc {
+    font-size: 8px;
+    margin: 5px 0 15px 0;
+    opacity: 0.9;
+}
+
+.role-btn {
+    width: 100%;
+    padding: 10px 0;
+    background: #1d3bd8;
+    border: none;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
 }
