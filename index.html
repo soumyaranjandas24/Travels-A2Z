@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travels-A2Z</title>
     <link rel="stylesheet" href="./travel_recommendation.css">
 </head>
+
 <body>
     <nav>
         <h1><a href="./index.html">Travels - A2Z</a></h1>
@@ -16,8 +18,8 @@
         </ul>
         <div>
             <input type="text" name="search" id="search" placeholder="Enter a Destination or a Keyword...">
-            <button id="submitBtn()">Search</button>
-            <button id="resetBtn()">Reset</button>
+            <button type="button" id="searchBtn" onclick="searchBtn()">Search</button>
+            <button type="reset" id="resetBtn" onclick="resetBtn()">Reset</button>
         </div>
     </nav>
 
@@ -32,11 +34,21 @@
             </div>
         </div>
         <div id="content-main">
-            <div><h1><b>WANDER OFTEN.<br>WONDER ALWAYS.</b></h1></div>
-            <div><p><b>Welcome to your next adventure. From hidden gems to world-famous destinations, we bring you closer to the places you’ve always dreamed of exploring. Whether you’re planning a quick getaway or a once-in-a-lifetime journey, we’re here to inspire, guide, and make your travel experience simple and unforgettable. Let’s discover the world — one beautiful moment at a time</b></p></div>
-            <div><button>BOOK NOW</button></div>
+            <div>
+                <h1><b>WANDER OFTEN.<br>WONDER ALWAYS.</b></h1>
+            </div>
+            <div>
+                <p><b>Welcome to your next adventure. From hidden gems to world-famous destinations, we bring you closer
+                        to the places you’ve always dreamed of exploring. Whether you’re planning a quick getaway or a
+                        once-in-a-lifetime journey, we’re here to inspire, guide, and make your travel experience simple
+                        and unforgettable. Let’s discover the world — one beautiful moment at a time</b></p>
+            </div>
+            <div><button type="button">BOOK NOW</button></div>
         </div>
-        <div id="content-blank">blank</div>
+        <div id="content-blank"></div>
     </div>
+
+    <script src="./travel_recommendation.js"></script>
 </body>
+
 </html>
